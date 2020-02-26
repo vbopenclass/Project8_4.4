@@ -42,7 +42,7 @@ class User implements UserInterface
     private $email;
 
     /**
-     * @ORM\OneToMany(targetEntity="AppBundle\Entity\Task", mappedBy="author")
+     * @ORM\OneToMany(targetEntity="App\Entity\Task", mappedBy="author")
      */
     private $tasks;
 
